@@ -15,7 +15,8 @@ namespace ConsoleApp1
             {
                 int a = Convert.ToInt32(Console.ReadLine());
                 int b = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine((a + b).ToString());
+                if (a > b) Console.WriteLine((a + b).ToString());
+                else Console.WriteLine((a * b).ToString());
             }
             catch(Exception ex)
             {
